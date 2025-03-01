@@ -5,6 +5,7 @@ import 'quote.dart';
 import 'quotes_data.dart';
 import 'details.dart';
 
+/// home screen class
 class HomeScreen extends StatefulWidget {
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -26,6 +27,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
     getRandomQuote();
   }
 
+/// get random quote from quotes data file
   void getRandomQuote() {
     final categoryQuotes = quotes.where((q) => q.category == selectedCategory).toList();
     if (categoryQuotes.isNotEmpty) {
@@ -43,6 +45,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
     return quotes.map((quote) => quote.category).toSet().toList();
   }
 
+///  move to next quote
   void nextQuote() {
     final categoryQuotes = quotes.where((q) => q.category == selectedCategory).toList();
     if (categoryQuotes.isNotEmpty) {
@@ -54,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
       });
     }
   }
-
+/// go to previous quote 
   void previousQuote() {
     final categoryQuotes = quotes.where((q) => q.category == selectedCategory).toList();
     if (categoryQuotes.isNotEmpty) {

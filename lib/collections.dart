@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'quotes_data.dart';
 
+/// start collection this page show only count of quotes 
 class CollectionsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
