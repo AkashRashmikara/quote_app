@@ -92,11 +92,11 @@ class DetailsScreen extends StatelessWidget {
                   Container(
                     padding: EdgeInsets.all(16),
                     decoration: BoxDecoration(
-                      color: isDarkMode ? Colors.grey[850] : Colors.grey[100],
+                      color: isDarkMode ? Colors.grey[850] : const Color.fromARGB(255, 212, 212, 212),
                       borderRadius: BorderRadius.circular(16),
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.black.withOpacity(0.05),
+                          color: Colors.black.withOpacity(0.15),
                           blurRadius: 10,
                           offset: Offset(0, 4),
                         ),
@@ -140,7 +140,7 @@ class DetailsScreen extends StatelessWidget {
                   SizedBox(height: 24),
 
                   Text(
-                    "About Quote",
+                    "About Author",
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,

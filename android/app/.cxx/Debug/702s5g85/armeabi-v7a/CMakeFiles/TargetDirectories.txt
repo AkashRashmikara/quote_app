@@ -1,0 +1,2 @@
+C:/Users/ASUS/Desktop/SLTC/6th Sem/Mobile Application/Final Ass/quote_generator/quote_app/android/app/.cxx/Debug/702s5g85/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/ASUS/Desktop/SLTC/6th Sem/Mobile Application/Final Ass/quote_generator/quote_app/android/app/.cxx/Debug/702s5g85/armeabi-v7a/CMakeFiles/rebuild_cache.dir

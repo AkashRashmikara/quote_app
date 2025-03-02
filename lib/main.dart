@@ -24,7 +24,7 @@ class myApp extends StatelessWidget {
         brightness: Brightness.light,  
       ),
       darkTheme: ThemeData(
-        brightness: Brightness.dark,  
+        brightness: Brightness.dark,
         fontFamily: 'Poppins',  
         textTheme: TextTheme(
           headlineMedium: TextStyle(fontWeight: FontWeight.w700),  
